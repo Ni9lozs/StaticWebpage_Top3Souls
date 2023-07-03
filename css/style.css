@@ -1,0 +1,159 @@
+#xnav {
+    color: white;
+}
+header, main, footer, #header, #footer, #tartalom {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer, #footer, #header {
+    background-color: #212529;
+    color: white;
+}
+body {
+    background-image: url(../media/R.jfif);
+}
+header, #header {
+    margin-top: 10px;
+}
+footer, #footer {
+    margin-bottom: 10px;
+}
+table {
+    text-align: center;
+    border: 3px double gray;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: green;
+}
+main, #tartalom {
+    background-color: white;
+}
+video {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+}
+aside {
+    text-align: center;
+}
+article#desc {
+    column-count: 2;			
+	-webkit-column-count: 2;	
+    -moz-column-count: 2;
+	column-gap: 10px;
+    text-align: justify;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+article#fosh {
+    column-count: 2;			
+	-webkit-column-count: 2;	
+    -moz-column-count: 2;
+	column-gap: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+article#desc img {
+    width: 100%;
+}
+article#desccc {
+    column-count: 2;
+    -webkit-column-count: 2;	
+    -moz-column-count: 2;
+    margin-bottom: 50px;
+}
+article#fosh img {
+    width: 100%;
+}
+form {
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+}
+h2 {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 10%;
+}
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+a {
+    color:white
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: yellow;
+    background-color: #212529;
+}
+nav a:visited, nav a, .nav a, .nav a:visited {
+    color: white;
+}
+.nav-link:hover {
+    background-color: greenyellow;
+}
+.nav-link, .nav-link:visited, .nav-link:hover {
+    color:white;
+    text-decoration: none;
+}
+figure {
+    text-align: center;
+}
+.videjo {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablazat {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4 {
+    margin-left: 10%;
+}
+article#dsrdesc {
+    text-align: justify;
+}
+h2 {
+    margin-left: 5%;
+}
+.vidlink {
+    background-color: green;
+}
+textarea {
+    height: 250px;
+    resize: none;
+}
+@media only screen and (max-width: 800px) {
+    article#desc {
+        column-count: 1;
+	    -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+    article#fosh {
+        column-count: 1;
+	    -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+    article#desccc {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+    header, main, footer, #header, #footer, #tartalom {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form {
+        width: 80%;
+    }
+}
